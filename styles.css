@@ -1,7 +1,21 @@
 /* add your CSS here */
+/* Lato font to body */
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
 /* Image width set to 300px */
 img{
 	width: 300px;
+}
+
+.animal-image{
+	transition: transform .2s;
+}
+
+.animal-image:hover{
+	transform: scale(1.02);
+	opacity: 0.9;
 }
 
 /* The text is italicized for the animal’s interesting fact. */
@@ -27,6 +41,7 @@ ul{
 	padding: 10px;
 	width: 300px;
 	box-shadow: 5px 5px #f1f1f1;
+	background: radial-gradient(rgb(190, 190, 190), white);
 }
 
 /* Uses border around animal’s information. */
@@ -34,4 +49,5 @@ ul{
 	border: 1px solid lightgray;
 	margin-top: 5px;
 	padding: 5px;
+	font-size: 12px;
 }
