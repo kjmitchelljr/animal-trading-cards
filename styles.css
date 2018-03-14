@@ -1,1 +1,36 @@
 /* add your CSS here */
+/* Image width set to 300px */
+img{
+	width: 300px;
+}
+
+/* The text is italicized for the animal’s interesting fact. */
+.animal-fact{
+	font-style: italic;
+}
+
+/* The labels are bolded for the animal’s list items. */
+.animal-label{
+	font-weight: bold;
+}
+
+/* The dots are removed from the animal's list items. */
+ul{
+	list-style-type: none;
+	padding: 0;
+}
+
+/* Uses border around animal’s name, image, and information (interesting fact, list items, and description). */
+.animal-card{
+	border: 1px solid lightgray;
+	padding: 10px;
+	width: 300px;
+	box-shadow: 5px 5px #f1f1f1;
+}
+
+/* Uses border around animal’s information. */
+.animal-information{
+	border: 1px solid lightgray;
+	margin-top: 5px;
+	padding: 5px;
+}
